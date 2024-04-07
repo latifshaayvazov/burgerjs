@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.conteiner button{
+width: 420px;
+height: 48px;
+background-color: #000;
+margin-left: 20px;
+margin-top: 20px;
+color: white;
+cursor: pointer;
+}
+.kattadivde{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000078;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oyna{
+    display: none;
+}
+.oynade{
+width: 400px;
+height: 300px;
+background-color: #fff;
+padding-left: 50px;
+padding-top: 50px;
+position: relative;
+}
+.oynade h1{
+font-family: Gilroy;
+font-size: 30px;
+font-weight: 600;
+line-height: 44.1px;
+margin-bottom: 20px; 
+
+}
+.oynade input{
+width: 300px;
+height: 44px;
+margin-bottom: 7px;
+background-color: #DADADA;
+border: 1px solid #DADADA;
+padding-left: 10px;
+}
+.otpde{
+    width: 300px;
+    height: 44px;
+    color: #fff;
+    background-color: #0094FF;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.x{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-image: url("./img/x\ \(1\)\ 1.png");
+    background-size: cover;
+    cursor: pointer;
+}
+.menu{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    font-size: 14px;
+    top: 10px;
+    background-color: #0094FF;
+    color: #fff;
+    border: 1px solid #0094FF;
+    cursor: pointer;
+}
+.menuqora{
+    width: 30vw;
+    height: 100vh;
+    background-color: #000;
+    right: 0px;
+    top: 0px;
+    border: none;
+}
+.x1de{
+    width: 22px;
+    height: 22px;
+    background-image: url(./img/Group\ 6.png);
+    background-size: cover;
+    position: absolute;
+    border: none;
+    background-color: #000;
+    top: 10px;
+    right: 10px;
+}
+.txtburgerde{
+    font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.5px;
+text-align: left;
+margin-left: 30px;
+}
+#menu{
+    margin-top: 6px;
+    font-size: 14px;
+}
+#menude{
+    margin-left: -280px;
+    font-size: 22px; 
+}
